@@ -1,0 +1,11 @@
+different file operations 
+
+the operations that can be performed on an open file are:
+
+: read(size)- read size bytes from the, if the size is not specified it read the entire file 
+: tell()- return the current position of the file cursor 
+: seek(value)- sets the file cursor to the specified position given by value
+: readline()- read the next line from the file (only for the text files).return null if the 
+               end of the file (EOF)is reached 
+: close()- closes the file 
+: write(str)- Appends the dtring str to the end of the file
